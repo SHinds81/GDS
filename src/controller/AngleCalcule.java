@@ -8,6 +8,7 @@ public class AngleCalcule {
 		// TODO Auto-generated constructor stub
 	}
 	
+	//THIS ACTUALLY CALCULATES DISTANCE!!!
 	public void LengthCalculator(int x1, int y1, int x2, int y2) {
 		
 		
@@ -50,8 +51,9 @@ public class AngleCalcule {
 		
 	}
 	
-	public void AngleCalculator(int x1, int y1, int x2, int y2) {
+	public double AngleCalculator(int x1, int y1, int x2, int y2) {
 		
+		return 0.0;
 	}
 
 }

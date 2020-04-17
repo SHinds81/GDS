@@ -1,0 +1,8 @@
+To do list:
+overwatch abilities (shoot, retreat)
+maps
+aiming
+range
+abilities
+characters
+levelling
