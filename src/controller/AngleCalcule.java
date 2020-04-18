@@ -45,7 +45,7 @@ public class AngleCalcule {
 		
 		squaredResult = Math.sqrt(squaredResult);
 		
-		String consoleSend= "Calculated Length: " + squaredResult;
+		String consoleSend = "Calculated Length: " + squaredResult;
 		
 		ConsoleReadOut.ConsoleReadIn(consoleSend);
 		
@@ -53,7 +53,12 @@ public class AngleCalcule {
 	
 	public double AngleCalculator(int x1, int y1, int x2, int y2) {
 		
-		return 0.0;
+		double y = (y2 - y1);
+		double x = (x2 - x1);
+		
+		double angle = Math.atan2(y, x);
+		
+		return angle;
 	}
 
 }

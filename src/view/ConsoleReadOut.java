@@ -36,8 +36,12 @@ public class ConsoleReadOut {
 		AngleCalcule calculate = new AngleCalcule();
 		calculate.LengthCalculator(x1, y1, x2, y2);
 		
+		double angle = calculate.AngleCalculator(x1, y1, x2, y2);
+		
 		String coordinateEntered = "Coordinates entered are, X1: " + x1 + ", Y1: " + y1 + ", X2: " + x2 + ", Y2: " + y2;
 		ConsoleReadIn(coordinateEntered);
+		
+		System.out.println("Angle is: " + angle);
 		
 	}
 	
