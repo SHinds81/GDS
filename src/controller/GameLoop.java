@@ -1,0 +1,9 @@
+package controller;
+
+public class GameLoop {
+
+	public GameLoop() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

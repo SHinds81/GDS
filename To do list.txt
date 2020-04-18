@@ -1,8 +1,43 @@
 To do list:
-overwatch abilities (shoot, retreat)
+over watch abilities (shoot, retreat)
 maps
 aiming
 range
 abilities
 characters
-levelling
+leveling
+enemy AI
+collision detection
+craftable, customizable armor and gear
+
+grenades = calculates range, everything in range then calculates if it hits
+
+calculate enemy sizes at ranges, which will "block out" a section of angles
+
+how the angle system works:
+0 deg
+1.5707963267948966
+
+45 deg
+0.7853981633974483
+
+90 deg
+0
+
+135 deg
+-0.7853981633974483
+
+180 deg
+-1.5707963267948966
+
+225 deg
+-2.356194490192345
+
+270 deg
+3.141592653589793
+
+315 deg
+2.356194490192345
+
+360 deg
+1.5707963267948966
